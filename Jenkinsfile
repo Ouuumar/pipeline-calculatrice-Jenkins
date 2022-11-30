@@ -45,5 +45,11 @@ pipeline {
                 }
             }
         }
+    stage('Branche'){
+        agent none
+        steps {
+            echo "TEST branche"
+        }
+    }
     }
 }
